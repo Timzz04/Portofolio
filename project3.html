@@ -3,23 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 3 -</title>
-    <link rel="stylesheet" href="bootstrap/css/reset.css">
+    <title>Muylenberg investerings aanvragen</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
-    <div class="container my-5">
-        <h1>Lorem ipsum dolor samep</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam labore accusantium doloremque voluptates eligendi praesentium ex, possimus nobis voluptatibus id suscipit assumenda sed ipsum sequi odio error ab similique.</p>
-        <img src="assets/Images/project3.jpg" alt="Screenshot of Project 3" class="img-fluid mb-4">
-        <h2>Project Features</h2>
-        <ul>
-            <li>User-friendly reporting interface</li>
-            <li>Data validation and verification</li>
-            <li>Interactive map integration for location tracking</li>
-        </ul>
-        <a href="index.html" class="btn btn-primary mt-3">Back to Portfolio</a>
-    </div>
+    <header class="bg-dark text-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3">Portfolio</h1>
+            <nav>
+                <a href="index.html" class="text-light mx-2">Home</a>
+                <a href="portofolio.html" class="text-light mx-2">Projects</a>
+                <a href="about.html" class="text-light mx-2">About me</a>
+                <a href="contact.html" class="text-light mx-2">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="my-5">
+        <div class="container">
+            <h2 class="text-center">Muylenberg investerings aanvragen</h2>
+            <p class="text-center">MIA is een windows forms app waar ik aan meewerkte tijdens mijn stage bij vzw de muylenberg. Het doel van de app is om als bewoner makkelijk nieuwe spullen aan te vragen en om als medewerker in te schatten hoeveel geld er nodig is, wat er nodig is en of ze toekomen.</p>
+            
+            <h3>🛠️ Key Features</h3>
+            <ul>
+                <li>Verschillende rollen zodat niet iedereen alles kan.</li>
+                <li>Duidelijker inzicht over de financien.</li>
+                <li>Genereer rapporten op het einde van het jaar.</li>
+                <li>Veel makkelijker te gebruiken voor de bewoners.</li>
+                <li>Alle data op een SQL server</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light py-3 text-center">
+        <p>&copy; <span id="year"></span> Tim Meeus & chatgpt. All rights reserved.</p>
+    </footer>
 </body>
 </html>

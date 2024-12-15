@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taakbeheer Webapp</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header class="bg-dark text-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3">Portfolio</h1>
+            <nav>
+                <a href="index.html" class="text-light mx-2">Home</a>
+                <a href="portfolio.html" class="text-light mx-2">Projecten</a>
+                <a href="about.html" class="text-light mx-2">Over mij</a>
+                <a href="contact.html" class="text-light mx-2">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="my-5">
+        <div class="container">
+            <h2 class="text-center">Taakbeheer Webapp ✍️</h2>
+            <p class="text-center">Een op React gebaseerde webapplicatie voor het efficiënt beheren van taken, waarmee gebruikers hun dagelijkse activiteiten kunnen aanmaken, bijwerken, verwijderen en organiseren.</p>
+            
+            <h3>🔧 Belangrijkste functies</h3>
+            <ul>
+                <li>Gebruiksvriendelijke interface voor het beheren van taken (toevoegen, bewerken, verwijderen).</li>
+                <li>Stel deadlines in en categoriseer taken (bijv. Werk, Persoonlijk).</li>
+                <li>Filter en sorteer taken op categorie, deadline of status.</li>
+                <li>Sla taken lokaal op met LocalStorage.</li>
+            </ul>
+
+            <h3>📊 Toekomstige verbeteringen</h3>
+            <ul>
+                <li>Integreren met een backend (bijv. Firebase of Node.js) voor cloudopslag en ondersteuning voor meerdere apparaten.</li>
+                <li>Toevoegen van een kalenderview om taken te visualiseren op basis van hun deadlines.</li>
+                <li>Implementeren van gebruikersauthenticatie voor meerdere gebruikersaccounts.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light py-3 text-center">
+        <p>&copy; <span id="year"></span> Tim Meeus & ChatGPT. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>

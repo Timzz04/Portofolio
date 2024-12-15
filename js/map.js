@@ -2,7 +2,7 @@
 Gebruik hiervoor de documentatie op https://leafletjs.com/ 
 */
 
-let map = L.map('Map').setView([51.23009, 4.41616], 16);
+let map = L.map('map').setView([51.23009, 4.41616], 16);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,

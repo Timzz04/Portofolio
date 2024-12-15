@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Project Details</title>
-    <link rel="stylesheet" href="bootstrap/css/reset.css">
+    <title>Automated System Health Report</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
     <header class="bg-dark text-light py-3">
@@ -18,28 +19,27 @@
                 <a href="portofolio.html" class="text-light mx-2">Projects</a>
                 <a href="about.html" class="text-light mx-2">About me</a>
                 <a href="contact.html" class="text-light mx-2">Contact</a>
-                <input type="search" class="form-control d-inline-block" style="width: 200px;" placeholder="Search in site">
             </nav>
         </div>
     </header>
 
     <section class="my-5">
         <div class="container">
-            <h2 class="text-center">Project Name</h2>
-            <p class="text-center">Details about the project.</p>
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <img src="assets/Images/project1.jpg" alt="Project Image" class="img-fluid mb-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque euismod lacus non elementum. Vivamus euismod orci ut dui sagittis.</p>
-                </div>
-            </div>
+            <h2 class="text-center">Automated System Health Report</h2>
+            <p class="text-center">ASHP is a powershell script that generates a comprehensive system health report. The script checks and logs details like disk space, memory usage, CPU usage, running processes, system uptime, and the status of critical services. The reports are saved as a CSV file and emailed to the system administrator.</p>
+            
+            <h3>🛠️ Tech Stack</h3>
+            <ul>
+                <li>Powershell</li>
+            </ul>
+
+            <h3>📁 Project Images</h3>
+            <img src="assets/Images/project4.jpg" alt="Project Screenshot " class="img-fluid mb-4">
         </div>
     </section>
 
     <footer class="bg-dark text-light py-3 text-center">
-        <p>&copy; 2024 Tim Meeus & chatgpt. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> Tim Meeus & chatgpt. All rights reserved.</p>
     </footer>
-
-    
 </body>
 </html>
